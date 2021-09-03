@@ -102,7 +102,7 @@ a {
     position: absolute;
     top: 82%;
     left: 0;
-    width: 285px;
+    width: 345px;
     text-align: left;
     padding-left: 0px;
     background-color: #fff;
@@ -125,6 +125,8 @@ a {
     padding: 21px;
     transition: all .4s;
 
+    text-align: center;
+    /*! width: 289px; */
 }
 
 .header_section .main_menu ul li ul li a,
@@ -373,6 +375,7 @@ input[type="submit"] {
 
 input:focus, textarea:focus{
     border: 2px solid#000;
+    border-radius: 6px;
 }
 
 /* ============== footer section ================ */
